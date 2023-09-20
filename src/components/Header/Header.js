@@ -9,11 +9,15 @@ export default function Header() {
       <h1 className='text-red-500'><span className="text-yellow-500 mr-1">My</span>Portfolio</h1>
       <div>
         <ul className=' hidden md:flex justify-between cursor-pointer '>
-          <li className='ml-4 font-bold'>HOME</li>
+          <li className='ml-4 font-bold'>
+             <Link to="/"> Home</Link>
+          </li>
           <li className='ml-4 font-bold'>
             <Link to="/aboutme">About Me</Link>
           </li>
-          <li className='ml-4 font-bold'>MY SKILLS</li>
+          <li className='ml-4 font-bold'>
+            <Link to="/myskills"> My skills</Link>
+          </li>
           <li className='ml-4 font-bold'>PROJECTS</li>
         </ul>
       </div>
