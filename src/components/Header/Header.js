@@ -18,7 +18,9 @@ export default function Header() {
           <li className='ml-4 font-bold'>
             <Link to="/myskills"> My skills</Link>
           </li>
-          <li className='ml-4 font-bold'>PROJECTS</li>
+          <li className='ml-4 font-bold'>
+              <Link to="/myproject"> My Project</Link>
+          </li>
         </ul>
       </div>
       <button className=' bg-white rounded-md text-black p-1 hidden md:block'>Contact Me</button>
