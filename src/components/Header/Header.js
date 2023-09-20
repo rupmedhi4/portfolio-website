@@ -10,7 +10,7 @@ export default function Header() {
       <div>
         <ul className=' hidden md:flex justify-between cursor-pointer '>
           <li className='ml-4 font-bold'>
-             <Link to="/"> Home</Link>
+            <Link to="/"> Home</Link>
           </li>
           <li className='ml-4 font-bold'>
             <Link to="/aboutme">About Me</Link>
@@ -19,11 +19,13 @@ export default function Header() {
             <Link to="/myskills"> My skills</Link>
           </li>
           <li className='ml-4 font-bold'>
-              <Link to="/myproject"> My Project</Link>
+            <Link to="/myproject"> My Project</Link>
           </li>
         </ul>
       </div>
-      <button className=' bg-white rounded-md text-black p-1 hidden md:block'>Contact Me</button>
+      <button className=' bg-white rounded-md text-black p-1 hidden md:block'>
+        <Link to="/contactme"> Contact Me</Link>
+      </button>
       <button className='md:hidden'><FaBars /></button>
     </header>
   )

@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skill from "./components/Skills/Skill";
 import MyProject from "./components/MyProject/MyProject";
+import ContactMe from "./components/ContactMe/ContactMe";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/aboutme" element={<AboutMe/>} />
           <Route path="/myskills" element={<Skill/>} />
           <Route path="/myproject" element={<MyProject/>} />
+          <Route path="/contactme" element={<ContactMe/>} />
         </Routes>
       </BrowserRouter>
     </>
