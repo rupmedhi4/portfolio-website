@@ -25,7 +25,7 @@ export default function Modal({ isModalOpen, setIsModalOpen }) {
 
     return ReactDOM.createPortal(
         <div>
-            <div className='fixed inset-0 flex justify-end  bg-black bg-opacity-50 '>
+            <div className='fixed inset-0 flex justify-end  bg-black bg-opacity-50 scale-up-hor-right '>
 
                 <div className='bg-slate-700 p-14 rounded-lg flex flex-row mt-20 '>
 
