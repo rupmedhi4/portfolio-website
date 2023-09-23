@@ -1,14 +1,16 @@
 import React from 'react'
+import '../Home/Home.css'
+import './Myproject.css'
 
 export default function MyProject() {
     return (
-        <div className='bg-slate-800 min-h-screen'>
+        <div className='bg-slate-800 min-h-screen slide-in-bck-bottom '>
             <div className=' text-center py-10 '>
                 <h1 className='text-red-500 font-bold text-3xl '><span className='text-yellow-200 font-bold text-3xl mr-2'>My</span>Project</h1>
-                <p className='text-white mt-4 text-xl font-bold'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, ipsam!</p>
+                <p className='text-white mt-4 text-xl font-bold'>Creating awesome websites with React, Firebase, and Redux for a seamless and engaging user experience!</p>
             </div>
 
-            <div className='flex justify-center gap-8 mt-8 m-4 text-white'>
+            <div className='flex justify-center gap-8 mt-8 m-4 text-white tracking-in-contract-bck' >
                 <div className="w-[400px] h-auto ">
                     <img
                         src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
@@ -24,7 +26,7 @@ export default function MyProject() {
 
                     </div>
                 </div>
-                <div className="w-[400px] h-auto ">
+                <div className="w-[400px] h-auto tracking-in-contract-bck">
                     <img
                         src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
                         alt="Laptop"
